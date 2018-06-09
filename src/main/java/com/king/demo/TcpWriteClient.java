@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class TcpClient {
+public class TcpWriteClient {
     public static void main(String[] args) {
         try (Socket socket = new Socket("localhost", 8080);
              OutputStream outputStream = socket.getOutputStream()) {
