@@ -31,7 +31,7 @@ public class EchoServer {
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
 
             ChannelFuture future = bootstrap.bind().sync();
-            System.out.println("Echo server 已启动, 监听端口:" + future.channel().localAddress());
+            System.out.println("Echo TelnetServerHandler 已启动, 监听端口:" + future.channel().localAddress());
             future.channel().closeFuture().sync();
         } finally {
             bossGroup.shutdownGracefully().sync();

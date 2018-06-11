@@ -46,7 +46,7 @@ public class DiscardServer {
             future.channel().closeFuture().sync();
 
         } catch (Exception e) {
-            System.out.println("server exception...");
+            System.out.println("TelnetServerHandler exception...");
             e.printStackTrace();
         } finally {
             workerGroup.shutdownGracefully();
