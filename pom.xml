@@ -11,6 +11,7 @@
     <name>netty-demo</name>
 
     <dependencies>
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
