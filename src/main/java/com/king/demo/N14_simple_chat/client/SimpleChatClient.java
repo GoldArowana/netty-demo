@@ -1,4 +1,4 @@
-package com.king.demo.N14_simplechat.client;
+package com.king.demo.N14_simple_chat.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
